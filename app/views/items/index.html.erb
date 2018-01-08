@@ -1,2 +1,15 @@
 <h1>Items#index</h1>
 <p>Find me in app/views/items/index.html.erb</p>
+
+<table>
+  <% @items.each do |item| %>
+    <tr>
+      <td><%=link_to(item.title,"/items/#{item.id}")%></td>
+      <td><%=item.description%></td>
+      <td><%=item.start%></td>
+      <td><%=item.end%></td>
+      <td><%=item.settled%></td>
+      <td><%=item.archive%></td>
+    </tr>
+  <% end %>
+</table>

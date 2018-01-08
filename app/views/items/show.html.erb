@@ -1,2 +1,13 @@
 <h1>Items#show</h1>
 <p>Find me in app/views/items/show.html.erb</p>
+
+<table>
+  <tr>
+    <td><%=@item.title%></td>
+    <td><%=@item.description%></td>
+    <td><%=@item.start%></td>
+    <td><%=@item.end%></td>
+    <td><%=@item.settled%></td>
+    <td><%=@item.archive%></td>
+  </tr>
+</table>

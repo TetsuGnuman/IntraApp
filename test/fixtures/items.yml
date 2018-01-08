@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  title: MyString
+  start: 2018-01-08
+  end: 2018-01-08
+  description: MyText
+  settled: false
+  archive: false
+
+two:
+  title: MyString
+  start: 2018-01-08
+  end: 2018-01-08
+  description: MyText
+  settled: false
+  archive: false

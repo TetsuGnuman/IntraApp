@@ -1,7 +1,9 @@
 Rails.application.routes.draw do
-  get 'items/index'
+  get '/items', to: 'items#index'
+  get '/items/:id', to: 'items#show'
 
-  get 'home/index'
+  get '/', to: 'home#index'
+  get '/about', to: 'home#about'
+  get '/guide', to: 'home#guide'
 
-  # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end
